@@ -1,0 +1,56 @@
+.inputs {
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+#input1 {
+  width: 40vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9f2b68;
+  margin-top: 5px;
+}
+
+#input2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40vw;
+  height: 40vh;
+  font-size: 1.1rem;
+  padding: 20px;
+  color: #9f2b68;
+  margin-top: 5px;
+}
+
+#input3 {
+  width: 15vw;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #9f2b68;
+  margin-top: 5px;
+}
+
+#addButton {
+  width: 15vw;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #9f2b68;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}

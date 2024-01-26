@@ -1,0 +1,69 @@
+h3 {
+  color: white;
+}
+
+#ul {
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+#ul::-webkit-scrollbar {
+  display: none;
+}
+
+#li {
+  background-color: white;
+  list-style: none;
+  color: #9f2b68;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#title {
+  width: 40vw;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9f2b68;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#description {
+  width: 40vw;
+  font-size: 1.1rem;
+  padding: 20px;
+  color: #9f2b68;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#dueDate {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #9f2b68;
+  margin-top: 5px;
+}
+
+#deleteButton {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #9f2b68;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#deleteButton:hover {
+  background-color: #9f2b68;
+  color: white;
+}
